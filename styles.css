@@ -46,15 +46,50 @@ h2{
     
 }
 
-.time span:nth-of-type(2) span:nth-child(1)
+.time:nth-of-type(2) span:nth-child(1)
 {
 background-color: #6fb40a;
 }
-.time span:nth-of-type(3) span:nth-child(1)
+.time:nth-of-type(3) span:nth-child(1)
 {
-background-color: #978018;
+background-color: #887212;
 }
-.time span:nth-of-type(4) span:nth-child(1)
+.time:nth-of-type(4) span:nth-child(1)
+{
+background-color: #0a68b4;
+}
+
+.time:nth-of-type(5) span:nth-child(1)
 {
 background-color: #b4240a;
 }
+
+
+.time span:nth-child(2)
+{
+    width: 180px;
+    color: #faf8f8;
+    background-color: #008c9edc;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.time:nth-of-type(2) span:nth-child(2)
+{
+background-color: #70b40ad8;
+}
+.time:nth-of-type(3) span:nth-child(2)
+{
+background-color: #887212da;
+}
+.time:nth-of-type(4) span:nth-child(2)
+{
+background-color: #0a68b4da;
+}
+.time:nth-of-type(5) span:nth-child(2)
+{
+background-color: #b4240adc;
+}
+
+
